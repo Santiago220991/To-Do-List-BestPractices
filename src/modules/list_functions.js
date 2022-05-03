@@ -17,6 +17,7 @@ export const erase = (taskarr, id) => {
     element.index = index + 1;
   });
 };
+
 export const clear = (taskarr) => {
   taskarr = taskarr.filter((element) => element.completed !== true);
   taskarr.forEach((element, index) => {

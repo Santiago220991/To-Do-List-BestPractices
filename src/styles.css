@@ -72,8 +72,6 @@ body {
   border-bottom: 1px solid black;
   padding-left: 24px;
   padding-right: 24px;
-  padding-top: 12px;
-  padding-bottom: 12px;
   font-size: 18px;
 }
 
@@ -99,8 +97,11 @@ body {
 }
 
 .edit_text {
+  margin-top: 13px;
+  margin-bottom: 13px;
   display: none;
   width: 80%;
+  font-size: 18px;
 }
 
 .edit_text.active {
